@@ -12,21 +12,32 @@ Deal with object creation mechanisms to optimize resource usage and object manag
 Examples:
 
 1.Singleton
+
 2.Factory Method
+
 3.Abstract Factory
+
 4.Builder
+
 5.Prototype
 
 Structural Patterns
 
 Concerned with object composition and inheritance to create flexible and efficient structures.
 Examples:
+
 1.Adapter
+
 2.Bridge
+
 3.Composite
+
 4.Decorator
+
 5.Facade
+
 6.Flyweight
+
 7.Proxy
 
 
@@ -37,15 +48,25 @@ Focus on communication and interaction between objects to ensure better responsi
 Examples:
 
 1.Chain of Responsibility
+
 2.Command
+
 3.Interpreter
+
 4.Iterator
+
 5.Mediator
+
 6.Memento
+
 7.Observer
+
 8.State
+
 9.Strategy
+
 10.Template Method
+
 11.Visitor
 
 
