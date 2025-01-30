@@ -10,14 +10,17 @@ The Factory Method Pattern defines an interface for creating objects but allows 
 
 **Key Features:**
 
-Decouples Object Creation: The client code depends only on the abstract interface.
-Flexibility: Subclasses determine which class to instantiate.
+**Decouples Object Creation**: The client code depends only on the abstract interface.
+
+**Flexibility**: Subclasses determine which class to instantiate.
 
 **🔍 When to Use Factory Method Pattern**
 
-When the object creation logic becomes complex.
-When a class needs to delegate the instantiation of subclasses.
-When a system needs to support various product types without changing client code.
+- When the object creation logic becomes complex.
+  
+- When a class needs to delegate the instantiation of subclasses.
+  
+- When a system needs to support various product types without changing client code.
 
 **Simple Factory Method Concept (Pseudocode)**
 
