@@ -3,6 +3,9 @@
 The Singleton Design Pattern ensures that a class has only one instance throughout the application and provides a global access point to that instance.
 This is useful for managing shared resources such as configuration settings, logging, or database connections.
 
+![image](https://github.com/user-attachments/assets/be739e7d-67b2-4087-b093-e6e0be96b41f)
+
+
 🔍 How It Works
 
 Private Constructor: Prevents instantiation using new.
