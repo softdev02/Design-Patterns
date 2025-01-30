@@ -10,12 +10,17 @@ Decouples Object Creation: The client code depends only on the abstract interfac
 Flexibility: Subclasses determine which class to instantiate.
 
 🔍 When to Use Factory Method Pattern
+
 When the object creation logic becomes complex.
 When a class needs to delegate the instantiation of subclasses.
 When a system needs to support various product types without changing client code.
 
 Simple Factory Method Concept (Pseudocode)
+
 Logistics (abstract class) 
+
 | 
+
 |-- RoadLogistics (factory class) --> RoadTransport (truck) 
+
 |-- SeaLogistics (factory class) --> SeaTransport (ship)
