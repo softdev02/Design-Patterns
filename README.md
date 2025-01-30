@@ -4,10 +4,13 @@ What are Software Design Patterns?
 Software Design Patterns are reusable solutions to common software design problems. They provide a structured approach to solving recurring challenges in software development by offering proven templates or best practices. Patterns help developers create more maintainable, scalable, and efficient software systems.
 
 Types of Software Design Patterns
+
 There are three primary categories of design patterns:
+
 Creational Patterns
 Deal with object creation mechanisms to optimize resource usage and object management.
 Examples:
+
 1.Singleton
 2.Factory Method
 3.Abstract Factory
@@ -15,6 +18,7 @@ Examples:
 5.Prototype
 
 Structural Patterns
+
 Concerned with object composition and inheritance to create flexible and efficient structures.
 Examples:
 1.Adapter
@@ -27,8 +31,11 @@ Examples:
 
 
 Behavioral Patterns
+
 Focus on communication and interaction between objects to ensure better responsibilities distribution.
+
 Examples:
+
 1.Chain of Responsibility
 2.Command
 3.Interpreter
