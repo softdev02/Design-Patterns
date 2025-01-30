@@ -71,6 +71,9 @@ Examples:
 
 
 Total Number of Design Patterns
+
 The GoF (Gang of Four) book identifies 23 classic design patterns. Beyond these, there are additional patterns used in enterprise applications and specific paradigms such as:
+
 Concurrency Patterns: Thread Pool, Semaphore, Monitor Object, etc.
+
 Architectural Patterns: MVC (Model-View-Controller), Microservices, Event-Driven Architecture, and Layered Architecture.
