@@ -6,6 +6,9 @@ The Abstract Factory Design Pattern provides an interface for creating families 
 
 This pattern is particularly useful when a system needs to be independent of how its objects are created, composed, and represented.
 
+![image](https://github.com/user-attachments/assets/2c04582b-813d-40a8-b272-c5bbe2b06ede)
+
+
 **🔍 How It Works**
 
 - **Abstract Product (Chair)**: Defines the interface for various chair types.
