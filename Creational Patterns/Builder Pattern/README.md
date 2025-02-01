@@ -6,6 +6,7 @@ The Builder Design Pattern is a creational pattern that separates the constructi
 
 This pattern is particularly useful when constructing objects that require multiple steps or configurations.
 
+![image](https://github.com/user-attachments/assets/97fd4298-e157-40d2-aaf4-e2e7c480c7d9)
 
 **🔍 How It Works**
 
