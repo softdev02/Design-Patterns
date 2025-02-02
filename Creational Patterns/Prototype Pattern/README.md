@@ -2,7 +2,7 @@
 
 **Definition:**
 
-The Prototype Design Pattern is a creational design pattern that allows creating new objects by copying existing ones (prototypes) rather than instantiating new objects from scratch. This is particularly useful when object creation is resource-intensive or involves complex configurations.
+The Prototype Design Pattern is a creational design pattern that allows **creating new objects by copying existing ones (prototypes) rather than instantiating new objects from scratch.** This is particularly useful when object creation is resource-intensive or involves complex configurations.
 
                    +--------------------+
                    |     Prototype       |
