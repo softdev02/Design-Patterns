@@ -4,6 +4,33 @@
 
 The Prototype Design Pattern is a creational design pattern that allows creating new objects by copying existing ones (prototypes) rather than instantiating new objects from scratch. This is particularly useful when object creation is resource-intensive or involves complex configurations.
 
+                   +--------------------+
+                   |     Prototype       |
+                   +--------------------+
+                   | + clone(): Prototype|
+                   +--------------------+
+                            ▲
+                            |
+            +-----------------------------+
+            |       Concrete Prototype    |
+            |          (Document)         |
+            +-----------------------------+
+            | - title: String             |
+            | - content: String           |
+            +-----------------------------+
+            | + Document(title, content)  |
+            | + setTitle(title: String)   |
+            | + setContent(content: String)|
+            | + clone(): Prototype        |
+            | + display(): void           |
+            +-----------------------------+
+                            ▲
+                            |
+                    +---------------+
+                    |   Client       |
+                    +---------------+
+                    | main() Method  |
+                    +---------------+
 
 
 **🔍 How It Works**
