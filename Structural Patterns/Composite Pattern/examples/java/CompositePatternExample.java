@@ -6,7 +6,6 @@ interface Item {
     void showDetails();
 }
 
-// Leaf class: Represents individual simple items
 class Product implements Item {
     private String name;
 

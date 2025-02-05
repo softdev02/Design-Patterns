@@ -4,56 +4,28 @@
 
 Composite is a structural design pattern that allows you to compose objects into tree structures to represent part-whole hierarchies. It enables clients to treat individual objects and compositions of objects uniformly..
 
-     +------------------------+
-    |  Shape (Abstraction)   |
-    +------------------------+
-    | + draw(): void         |
-    +------------------------+
-                 ▲
-                 |
-     +-----------------------------+
-     |    Circle, Square        |
-     |  (Refined Abstraction)      |
-     +-----------------------------+
-     | + draw(): void              |
-     +-----------------------------+
-                 |
-                 ▼
-        +------------------------+
-        |   Color (Implementor)   |
-        +------------------------+
-        | + applyColor(): void    |
-        +------------------------+
-                     ▲
-                     |
-      +---------------------------+
-      |   Red, Blue (Concrete     |
-      |      Implementor)         |
-      +---------------------------+
-      | + applyColor(): void      |
-      +---------------------------+
-
+   
 
 
 
 
 **🔍 How It Works**
 
-**Abstraction**: The high-level interface for client usage.
+**Component**: Declares the common interface for both simple and complex objects in the composition.
 
-**Refined Abstraction**: Extends the Abstraction and may add additional operations.
+**Leaf**: Represents simple objects with no child components. Implements the Component interface.
 
-**Implementor (Bridge)**: Declares the interface for implementation classes.
+**Composite**: Contains child components and implements the operations defined by the Component interface.
 
-**Concrete Implementor**: Provides the specific implementation of the methods declared in the bridge interface.
+**Client**: Interacts with objects in the composite structure through the Component interface.
 
 
-**🌟 Benefits of Bridge Pattern**
+**🌟 Benefits of Composite Pattern**
 
-**Decoupling Abstraction and Implementation**: Promotes independent development and maintenance.
+**Uniformity**: Treats individual and composite objects uniformly.
 
-**Increased Flexibility**: Easier to extend both abstractions and implementations.
+**Simplified Client Code**: Reduces complexity in client code by allowing them to interact with abstract components.
 
-**Improved Scalability**: Adding new implementations doesn't require changing the abstraction layer.
+**Easier Object Hierarchy Management**: Adding and removing child components is straightforward.
 
-**Reduces Code Complexity**: Avoids excessive inheritance hierarchies.
+**Scalability**: Supports complex hierarchical structures without changing the client code.
