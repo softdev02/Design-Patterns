@@ -4,7 +4,8 @@
 
 Composite is a structural design pattern that allows you to compose objects into tree structures to represent part-whole hierarchies. It enables clients to treat individual objects and compositions of objects uniformly..
 
-   
+![image](https://github.com/user-attachments/assets/dc088210-47b0-4b75-9070-23d104f6cbbf)
+
 
 
 
