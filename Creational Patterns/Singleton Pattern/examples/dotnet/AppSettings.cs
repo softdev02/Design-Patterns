@@ -11,9 +11,10 @@ namespace SingletonPattern
         private static readonly object lockObject = new object();
 
         //settings Properties 
-        public string ApplicationName { get; set; }
-        public string Version { get; set; }
-        public string ApiBaseUrl { get; set; }
+        public string ApplicationName { get; private set; }
+        public string Version { get; private set; }
+        public string ApiBaseUrl { get; private set; }
+
         private AppSettings()
         {
             ApplicationName = "MyApp";
@@ -21,7 +22,8 @@ namespace SingletonPattern
             ApiBaseUrl = "https://api.myapp.com";
             Console.WriteLine("Application settings initialized.");
         }
-        public static AppSettings GetAppSettings(){
+        public static AppSettings GetAppSettings()
+        {
             if (instance == null)
             {
                 lock (lockObject)
