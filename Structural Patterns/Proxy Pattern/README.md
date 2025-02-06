@@ -44,7 +44,7 @@ Proxy is a structural design pattern that lets you provide a substitute or **pla
 **Client**: Uses the proxy instead of directly accessing the real service.
 
 
-🌟 Benefits of Proxy Pattern
+**🌟 Benefits of Proxy Pattern**
 
 **Access Control**: Restricts or manages access to the real subject.
 
