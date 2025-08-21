@@ -18,6 +18,7 @@ class House {
     doors: number = 0;
     windows: number = 0;
     roof: string = '';
+    hasAC: boolean = false;
     
     describe(): void {
         console.log('House Specifications:');
@@ -25,6 +26,7 @@ class House {
         console.log(`- Doors: ${this.doors}`);
         console.log(`- Windows: ${this.windows}`);
         console.log(`- Roof: ${this.roof}`);
+        console.log(`- AC: ${this.hasAC ? 'Yes' : 'No'}`);
     }
 }
 
@@ -39,6 +41,7 @@ interface HouseBuilder {
     addDoors(count: number): HouseBuilder;
     addWindows(count: number): HouseBuilder;
     addRoof(): HouseBuilder;
+    addAC(): HouseBuilder;
     build(): House;
 }
 
@@ -79,6 +82,11 @@ class SimpleHouseBuilder implements HouseBuilder {
         return this;
     }
 
+    addAC(): HouseBuilder {
+        this.house.hasAC = true;
+        return this;
+    }
+
     build(): House {
         const result = this.house;
         this.reset();
@@ -111,12 +119,13 @@ smallHouse.describe();
 
 console.log('\n-------------------\n');
 
-// Build a bigger house
+// Build a bigger house with AC
 const bigHouse = builder
     .buildWalls()
     .addDoors(2)
     .addWindows(8)
     .addRoof()
+    .addAC()
     .build();
 
 console.log('Big House:');
