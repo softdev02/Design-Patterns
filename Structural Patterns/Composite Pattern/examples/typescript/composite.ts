@@ -46,3 +46,10 @@ rootFolder.add(subFolder);
 rootFolder.add(file3);
 
 rootFolder.showDetails();
+
+
+/*+ Folder: Root
+   + Folder: Documents
+      - File: file1.txt
+      - File: file2.txt
+   - File: file3.txt*/
